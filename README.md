@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Segarur21/product-preview-card-component-main](https://github.com/Segarur21/product-preview-card-component-main)
-- Live Site URL: [https://segarur21.github.io/product-preview-card-component-main/](https://segarur21.github.io/product-preview-card-component-main/)
+- Live Site URL: [https://segarur21.github.io/product-preview-card-component-main](https://segarur21.github.io/product-preview-card-component-main)
 
 ## My process
 
