@@ -112,7 +112,7 @@ footer{
     margin-inline: 2rem;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 76.8rem) {
 
         body{
             align-items: center;
