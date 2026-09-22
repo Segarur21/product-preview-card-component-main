@@ -100,7 +100,7 @@ img{
     padding: 1.7rem;
     border: none;
 }
-.btn-cart:hover{
+.btn-cart:hover, .btn-cart:focus{
     background-color: var(--green-700);
     cursor: pointer;
 }
