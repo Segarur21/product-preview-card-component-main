@@ -11,34 +11,47 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Product preview card component</title>
   </head>
 
   <body>
-
     <article class="product-card">
-     <picture>
-        <source media="(min-width: 48rem)" srcset="./images/image-product-desktop.jpg" />
-        <img class="product-image" src="./images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum" />
+      <picture>
+        <source
+          media="(min-width: 48rem)"
+          srcset="./images/image-product-desktop.jpg"
+        />
+        <img
+          class="product-image"
+          src="./images/image-product-mobile.jpg"
+          alt="Gabrielle Essence Eau De Parfum"
+        />
       </picture>
       <div class="product-info">
-      <p class="category">Perfume</p>
+        <p class="category">Perfume</p>
 
-      <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
 
-      <p class="product-description">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
+        <p class="product-description">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
 
-      <p class="product-price">$149.99<span class="original-price">$169.99</span>
-      </p>
+        <p class="product-price">
+          $149.99<span class="original-price">$169.99</span>
+        </p>
 
-      <button class="add-to-cart">
-        <img src="./images/icon-cart.svg" alt=""/>Add to Cart
-      </button>
-    </div>
+        <button class="btn-cart">
+          <img src="./images/icon-cart.svg" alt="" />Add to Cart
+        </button>
+      </div>
     </article>
 
     <footer class="attribution">
@@ -46,6 +59,5 @@
       <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
       Coded by <a href="#">Sergio G.U.</a>.
     </footer>
-
   </body>
 </html>
